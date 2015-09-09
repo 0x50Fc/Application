@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>version</key>
+	<string>1.0.0</string>
+	<key>ui</key>
+	<dict>
+		<key>root</key>
+		<dict>
+			<key>scheme</key>
+			<string>root</string>
+			<key>class</key>
+			<string>APCreatorViewController</string>
+			<key>view</key>
+			<string>APNavigationController</string>
+		</dict>
+		<key>home</key>
+		<dict>
+			<key>class</key>
+			<string>APViewController</string>
+			<key>view</key>
+			<string>Home</string>
+			<key>title</key>
+			<string>首页</string>
+		</dict>
+		<key>search</key>
+		<dict>
+			<key>class</key>
+			<string>APViewController</string>
+			<key>view</key>
+			<string>Search</string>
+			<key>title</key>
+			<string>搜索</string>
+		</dict>
+	</dict>
+	<key>url</key>
+	<string>root:///root/home</string>
+</dict>
+</plist>
